@@ -9,9 +9,11 @@ public class Main {
         System.out.println("\n");
         System.out.println("Rezolvare exercitiu 2");
         Ex2 ex2= new Ex2();
-        ex2.transformare(31);
-        ex2.transformare(66);
-
+        ex2.transformare(6);
+        //ex2.transformare(66);
+        System.out.println("Rezolvare exercitiu 3");
+        Ex3 ex3= new Ex3();
+        ex3.select();
 
     }
 }
