@@ -14,6 +14,10 @@ public class Main {
         System.out.println("Rezolvare exercitiu 3");
         Ex3 ex3= new Ex3();
         ex3.select();
-
+        System.out.println("Rezolvare exercitiu 5");
+        //Ex5 ex5= new Ex5();
+        //ex5.desc();
+        int n=7;
+        Ex5.desc(n);
     }
 }
