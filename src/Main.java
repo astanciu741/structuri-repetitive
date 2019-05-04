@@ -28,7 +28,26 @@ public class Main {
         System.out.println("\nRezolvare exercitiu 9");
         Ex9.afisareBradut(5);
         System.out.println("\nRezolvare exercitiu 10");
-        Ex10.sumaPare({1, 2, 3, 4, 7});
+        Ex10.sumaPare();
+        System.out.println("\nRezolvare exercitiu 11");
+        Ex11.ghicesteNumarul(n);
+        Ex11Varianta2.ghicesteNumarul(5);
+        System.out.println("\nRezolvare exercitiu 12");
+        Ex12.ghicesteLuna(n);
+        Ex12Varianta2.ghicesteLuna(8);
+        System.out.println("\nRezolvare exercitiu 13");
+        Ex13.go(n);
+        System.out.println("\nRezolvare exercitiu 14");
+      //  Ex14.infinit(n);
+        System.out.println("\nRezolvare exercitiu 15");
+        Ex15.invers(34, 43);
+        System.out.println("\nRezolvare exercitiu 16");
+        Ex16.sumaCifrePozitiiPare(1234);
+        System.out.println("\nRezolvare exercitiu 17");
+        Ex17.diferentaSumaCifre(2121);
+        System.out.println("\nRezolvare exercitiu 18");
+        Ex18.puncteCardinale();
+
     }
 
 }
