@@ -17,7 +17,18 @@ public class Main {
         System.out.println("Rezolvare exercitiu 5");
         //Ex5 ex5= new Ex5();
         //ex5.desc();
-        int n=7;
+        int n=6;
         Ex5.desc(n);
+        System.out.println("\nRezolvare exercitiu 7");
+        Ex7.sumaCifre(n);
+        System.out.println("\nRezolvare exercitiu 8");
+        int a, b;
+        a=4; b=3;
+        Ex8.afisare(a, b);
+        System.out.println("\nRezolvare exercitiu 9");
+        Ex9.afisareBradut(5);
+        System.out.println("\nRezolvare exercitiu 10");
+        Ex10.sumaPare({1, 2, 3, 4, 7});
     }
+
 }
