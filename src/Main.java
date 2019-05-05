@@ -47,6 +47,8 @@ public class Main {
         Ex17.diferentaSumaCifre(2121);
         System.out.println("\nRezolvare exercitiu 18");
         Ex18.puncteCardinale();
+        System.out.println("\nRezolvare exercitiu 19");
+        Ex19.interpretareCNP();
 
     }
 
