@@ -3,15 +3,14 @@ public class Ex19 {
         long n = 2971009134147L;
         String sex="" ;
         String luna="" ;
-        long aux = 0, zi = 0, an = 0;
+        long  zi = 0, an = 0;
 
-        aux = n;
+
         long[] n2 = new long[14];
         ///salvez cnp ca array pt a putea manipula usor cifrele acestuia
         for (int i = 13; i >= 0; i--) {
             n2[i] = n2[i] + n % 10;
-            n = aux / 10;
-            aux = aux / 10;
+            n = n / 10;
         }
         for (int i = 1; i <= 13; i++) {
 
